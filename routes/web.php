@@ -14,7 +14,7 @@ Route::view('profile', 'profile')
     ->middleware(['auth'])
     ->name('profile');
 
-////
+//// testing commit push
 
 Route::group(['prefix' => 'RkVkcizer', 'as' => 'admin.'], function () {
     Route::middleware('auth')->group(function () {

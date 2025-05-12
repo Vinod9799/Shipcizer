@@ -11,12 +11,11 @@ use Livewire\Attributes\Validate;
 use Livewire\Attributes\Layout;
 use Livewire\Component;
 
-#[Layout('layouts.admin')] 
+#[Layout('layouts.admin')]
 class DashboardComponents extends Component
 {
     public function render()
     {
-        
         return view('livewire.pages.admin.dashboard');
     }
 }
